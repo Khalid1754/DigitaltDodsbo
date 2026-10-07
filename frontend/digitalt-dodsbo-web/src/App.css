@@ -1,0 +1,122 @@
+.app {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 0;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+legend {
+  font-weight: 600;
+  padding: 0 0.5rem;
+}
+
+.case-form label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.case-form input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.provider-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.provider-checkbox input {
+  width: auto;
+}
+
+.category {
+  color: #888;
+  font-size: 0.9em;
+}
+
+button {
+  background: #2b2b2b;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle-letter {
+  margin-top: 0.75rem;
+  background: transparent;
+  color: #2b2b2b;
+  border: 1px solid #ccc;
+}
+
+.letter-box {
+  margin-top: 0.75rem;
+  background: #fafafa;
+  border: 1px dashed #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.letter-box pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+}
+
+.back-button {
+  background: transparent;
+  color: #2b2b2b;
+  border: none;
+  padding: 0;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
